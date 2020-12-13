@@ -1,0 +1,72 @@
+{
+    "data": [ 
+        {
+            "name": "Members Domain", 
+            "code": "MD",
+            "textFile" : [
+                {
+                    "file": "EnglishBook.txt"
+                },
+                {
+                    "file": "EnglishNovel.txt"
+                },
+                {
+                    "file": "EnglishText.txt"
+                }
+            ]
+        },
+        {
+            "name": "Members",
+             "code": "IND",
+             "textFile" : [
+                {
+                    "file": "United States"
+                },
+                {
+                    "file": "India"
+                },
+                {
+                    "file": "Japan"
+                },
+                {
+                    "file":"Australia"
+                }
+            ]
+        },
+        {
+            "name": "Claims",
+             "code": "IR",
+             "textFile" : [
+                {
+                    "file": "Russia"
+                },
+                {
+                    "file": "United Arab Emirates"
+                }
+            ]
+        },
+        {
+            "name": "Claims domain",
+             "code": "IQ",
+             "textFile" : [
+                {
+                    "file": "Germany"
+                },
+                {
+                    "file": "Georgia"
+                },
+                {
+                    "file": "Algeria"
+                },
+                {
+                    "file": "Alaska"
+                }
+            ]
+        },
+        {
+            "name": "Test",
+             "code": "TS"
+        }
+        
+    ]
+}

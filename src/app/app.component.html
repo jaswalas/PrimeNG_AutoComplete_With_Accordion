@@ -1,0 +1,28 @@
+<h3>Enter search text like below</h3>
+<li>United</li>
+<li>In</li>
+<li>al</li>
+<li>Ge</li>
+<hr/>
+
+
+<h5>Search item</h5>
+<p-autoComplete [(ngModel)]="selectedCountryAdvanced" [suggestions]="filteredCountries"
+  (completeMethod)="filterCountry($event)" field="name" [dropdown]="true" id="autoCompleteComponent">
+
+  <ng-template let-data pTemplate="item">
+    <p-accordion collapseIcon="pi pi-minus" expandIcon="pi pi-plus" (onClose)="onTabClose($event)"
+      (onOpen)="onTabOpen($event)">
+      <p-accordionTab header={{data.name}} [selected]="true" class="headerText">
+        <li *ngFor="let file of data.textFile">
+          <div id="fileSection" (click)="txtFileSelected()"
+            [ngClass]="(file.file.toLowerCase().includes(searchedText.toLowerCase()))? 'selectedText': 'unSelectedText'">
+            <i class="fa fa-folder"></i>
+            {{file.file}}
+          </div>
+        </li>
+      </p-accordionTab>
+    </p-accordion>
+  </ng-template>
+
+</p-autoComplete>

@@ -1,0 +1,27 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+/* .ui-accordion .ui-accordion-header .ui-icon {
+    margin-top: -8px;
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+  } */
+
+  .headerText {
+    font-size: small;
+    font-weight: normal;
+    color:lightslategray;
+    background-color: linen;
+  }
+
+.selectedText {
+    background-color: #edf3fc;
+}
+
+.unSelectedText {
+    background-color:transparent;
+}
+
+#fileSection {
+    margin: 5% 0;
+}

@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    padding: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif,
+        “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+}
+
+.p-accordion-header-text {
+    font-size: smaller;
+    border: none;
+}
+
+.pi-minus {
+    margin-top: -8px;
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+}
+
+.pi-plus {
+    margin-top: -8px;
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+  .p-autocomplete-input ::before {
+      content:'btn';
+  }
+
+  input[type=text]::-webkit-input-placeholder::before { 
+    content:'btn';
+ }
